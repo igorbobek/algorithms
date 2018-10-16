@@ -20,7 +20,7 @@ public class MergeSort implements Sorting {
     }
 
 
-    private void merge(int first[], int second[], int[] result){
+    private void merge(int first[], int[] second, int[] result){
         int firstSize = first.length;
         int secondSize = second.length;
 
